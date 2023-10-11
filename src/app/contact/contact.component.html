@@ -1,0 +1,35 @@
+<section id="contact">
+    <div class="main-container">
+        <h2> CONTACT US</h2>
+    </div>
+    
+    <div class="container">
+        <mat-card class="f-card">
+            <div class="heading">CONTACT US</div>
+             <form class="form-container" [formGroup]="myForm">
+            <mat-form-field class="form-field">
+            <input matInput placeholder="Name" formControlName="name" required Name class="custom-input">
+            </mat-form-field>
+            <br>
+            <mat-form-field class="form-field">
+            <input matInput placeholder="Email"  formControlName="email" required email class="custom-input">
+            </mat-form-field>
+            <br>
+             <!-- <mat-form-field class="form-field">
+            <input matInput placeholder="Contact No"  formControlName="contactNo" required Contactno class="custom-input"> 
+            </mat-form-field>
+            <br> -->
+            <mat-form-field class="form-field">
+            <textarea matInput placeholder="Message" formControlName="message" required class=custom-input></textarea> 
+            </mat-form-field>
+            <br>
+            <!-- <button mat-raised-button color="gray" type="submit">Send</button> -->
+            <button mat-fab color="accent">Submit</button>
+            </form>
+      
+        </mat-card>
+        <img class="side-image" src="\assets\contactus\Blooming-amico.png">
+    </div>
+<!-- <app-footer></app-footer> -->
+
+</section>

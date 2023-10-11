@@ -1,0 +1,50 @@
+
+<section id="about">
+    <div class="heading"><h1>ABOUT US</h1></div>
+    <div class="container">
+    <mat-card>
+    <video width="320" height="240"  controls autoplay loop>
+      <source [src]="videoUrl" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </mat-card>
+    <div class="intro">
+      <h2>Why Choose us?</h2>
+      <!-- <div class="image-container"><img class="display-image" src=".\assets\portfolioimage.jpeg" /></div> -->
+      <!-- <p> we're not just selling flowers; we're crafting moments.With a commitment to freshness, creativity, and personalized service, we're your go-to destination for stunning floral arrangements that speak from the heart.Choose us for memorable expressions of love, joy, and gratitude through the timeless beauty of flowers.
+        you're choosing more than a flower shop; you're selecting a partner in petals. Our passion for blooms, attention to detail, and dedication to your satisfaction set us apart. We offer an exquisite range of floral designs, prompt delivery, and personalized care.When you choose us, you're choosing floral artistry that turns moments into cherished memories. <br>Let your emotions blossom with us.
+       </p> -->
+       <!-- <button mat-fab color="accent" (click)="toggleContent()">learn More</button> -->
+       <p>{{ displayContent }}</p>
+       <button mat-fab color ="accent"(click)="toggleContent()">Show {{ showMore ? 'Less' : 'More' }}</button>
+       
+      </div>
+    </div>
+
+    <div id="icons">
+        <img class="display-image" src="\assets\free-delivery.png" />
+        <div class="info">
+        <h3>Free Shipping</h3>
+        <span>On all Orders</span>
+      </div>
+      
+        <img class="display-image" src="\assets\money-bag.png" />
+        <div class="info">
+        <h3>10 Days Returns</h3>
+        <span> Moneyback Guarantee</span>
+      </div>
+
+        <img class="display-image" src="\assets\gift.png" />
+        <div class="info">
+        <h3>Offer and Gift</h3>
+        <span>On all Orders</span>
+      </div>
+      
+        <img class="display-image" src="\assets\credit-card.png" />
+        <div class="info">
+        <h3>Secure Payment</h3>
+        <span>Protected By Paypal</span>
+      </div>
+    </div>
+    <!-- <app-footer></app-footer> -->
+</section>

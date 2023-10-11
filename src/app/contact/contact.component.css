@@ -1,0 +1,59 @@
+.main-container{
+    display:flex;
+    justify-content:center;
+    padding:10px;
+    margin-top:20px;
+    background-color:rgb(255, 227, 232);
+    margin-bottom:0px;
+}
+.main-container h2{
+    background-color: rgb(255, 227, 232);
+    color:rgb(236, 46, 157);
+    font-weight: 400;
+    margin-bottom:0px;
+    font-size:26px;
+}
+.main-container{
+    display:flex;
+    justify-content: center;
+}
+
+
+.container{
+display: flex;
+justify-content: center;
+}
+.f-card{
+width:415px;
+padding-top: 30px;
+padding-right: 15px;
+padding-bottom: 30px;
+display:flex;
+justify-content: center;
+align-items:center;
+margin:33px;
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+
+
+}
+.form-container{
+width:100%;
+}
+.form-field{
+width:90%;
+padding:13px;
+}
+.side-image{
+    height:100%;
+    width:500px;
+    margin:33px;
+}
+.custom-input{
+    height:50px;
+    width:315px;
+}
+.heading{
+    color: rgb(236, 46, 157);
+    font-weight: 500;
+    font-size: 22px;
+}

@@ -1,0 +1,97 @@
+
+.contact-info{
+    display:flex;
+    justify-content: space-evenly;
+ 
+}
+@media (max-width: 550px) {
+    .contact-info{
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .container{
+        padding:10px;
+    }
+  }
+.address{
+    color:white;
+}
+.address h2{
+    font-family: 'EB Garamond', serif;
+}
+.main-container{
+    display:flex;
+    justify-content: center;
+}
+.footer{
+    
+    background-color:rgb(235, 193, 200);
+    align-items: center;
+}
+.row{
+    display: flex;
+    
+}
+.footer{
+    padding: 50px 0;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+    
+}
+.icon{
+    width:53%;
+    height:36%;
+    transition: all 0.3s linear;
+}
+
+a:hover .icon {
+   transform: scale(1.5);
+}
+.footer-col h4{
+    font-size: 18px;
+    font-family: 'EB Garamond', serif;
+    color:#ffffff ; 
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    padding-left:40px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom:10px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    font-family: 'EB Garamond', serif;
+    text-decoration:none;
+    font-weight:300;
+    color:#bbbbbb;
+    display: block;
+   
+}
+
+.r{
+    color:#ffffff;
+    width: 40%;
+    padding-left:70px;
+   
+}
+.social-links{
+    display:inline-flex;
+    padding:2px;
+    margin: 2px;
+}
+.links{
+    width: 58px;
+    height:83px;
+ 
+}
+.location{
+    margin-top: 20px;
+  
+}
+.heading{
+    font: size 20%;
+    font-family: 'EB Garamond', serif;
+}

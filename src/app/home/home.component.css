@@ -1,0 +1,39 @@
+
+  .bgimage{
+    height:627px;
+    width:100%;
+
+  }
+  .container{
+    background-image:url('/assets/backgroun-image.avif');
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    background-size:cover;
+    height:670px;
+  }
+  .container-text{
+    color:black;
+    top: 32%;
+    position: relative;
+    padding:0 50px;
+  }
+  .container-text h1{
+    font-weight:100;
+    font-size:60px;
+    line-height:32px;
+    font-family: 'EB Garamond', serif;
+  }
+  .container-text b{
+    color:black;
+  }
+  .sub-heading{
+    margin-top:50px;
+  }
+  .sub-heading h2{
+    color: rgb(234, 42, 234);
+    font-size: xx-large;
+  }
+  .content{
+
+  }
+  

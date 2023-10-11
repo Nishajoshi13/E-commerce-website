@@ -1,0 +1,48 @@
+
+.main-container{
+    display:flex;
+    justify-content:center;
+    padding:10px;
+    margin-top:20px;
+    background-color:rgb(255, 227, 232);
+    margin-bottom:0px;
+}
+.main-container h2{
+    background-color: rgb(255, 227, 232);
+    color:rgb(236, 46, 157);
+    font-weight: 400;
+    margin-bottom:0px;
+    font-size:26px;
+}
+.vase{
+    padding:10px;
+    padding-left: 19px;
+    height:226px;
+    width:207px;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 80px;
+    margin-left: 228px;
+    margin-right: 228px;
+    grid-row-gap: 60px;
+    grid-column-gap: 46px;
+}
+mat-card{
+    height:307px;
+    width:245px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+.info h3{
+    display:flex;
+    justify-content: center;
+    margin-bottom:0px;
+}
+.info span{
+    display:flex;
+    justify-content:center;
+    color:rgb(223, 17, 161);
+    font-size: 20px;
+    font-weight: 400;
+}
